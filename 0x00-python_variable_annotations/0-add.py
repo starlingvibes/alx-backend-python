@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Practicing basic type annotations with Python
+"""
+
 
 def add(a: float, b: float) -> float:
     """
