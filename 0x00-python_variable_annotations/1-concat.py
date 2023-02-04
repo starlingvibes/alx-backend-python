@@ -5,7 +5,7 @@ Basic type annotations - Concat
 """
 
 
-def concat(str1: string, str2: string) -> string:
+def concat(str1: str, str2: str) -> str:
     """
     Returns a concatenated string by joining str1 and str2
     """
