@@ -57,7 +57,8 @@ class TestGithubOrgClient(unittest.TestCase):
         ("abc", {"repos_url": "example.com"}, "BSD", []),
     ])
     @patch('client.get_json')
-    def test_public_repos_with_license(self, test_org, test_payload, test_license,
+    def test_public_repos_with_license(self, test_org, test_payload,
+                                       test_license,
                                        test_repos, mock_get):
         """Test public repos with license"""
         test_client = GithubOrgClient(test_org)
